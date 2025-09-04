@@ -1,0 +1,19 @@
+{
+  "name": "learningjs",
+  "version": "1.0.0",
+  "description": "Learning JavaScript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancescoViadanaLioi/Learning-JavaScript.git"
+  },
+  "author": "Francesco Viadana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrancescoViadanaLioi/Learning-JavaScript/issues"
+  },
+  "homepage": "https://github.com/FrancescoViadanaLioi/Learning-JavaScript#readme"
+}
