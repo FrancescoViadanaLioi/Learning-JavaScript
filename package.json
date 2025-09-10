@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FrancescoViadanaLioi/Learning-JavaScript/issues"
   },
-  "homepage": "https://github.com/FrancescoViadanaLioi/Learning-JavaScript#readme"
+  "homepage": "https://github.com/FrancescoViadanaLioi/Learning-JavaScript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
