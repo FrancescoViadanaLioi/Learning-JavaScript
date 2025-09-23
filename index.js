@@ -1,12 +1,14 @@
-const prompt = require('prompt-sync')()
+const person = personConstructor("Jack", 32, ['Let it rip', 'Make the mother of all omelettes'])
 
-const tempEmCelsius = Number(prompt("Digite uma temperatura em Celsius: "))
 
-const tempEmKelvin = celsiusParaKelvin(tempEmCelsius)
-
-console.log(`A temperatura de ${tempEmCelsius.toFixed(2)}°C é equivalente a ${tempEmKelvin.toFixed(2)}K`)
-
-function celsiusParaKelvin(tempEmCelsius)
+console.log(person.Hobbies)
+function personConstructor(Name, Age, Hobbies)
 {
-    return tempEmCelsius + 273
+    const person =
+    {
+        Name,
+        Age,
+        Hobbies
+    }
+    return person;
 }
