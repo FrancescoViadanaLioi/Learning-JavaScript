@@ -1,14 +1,7 @@
-const person = personConstructor("Jack", 32, ['Let it rip', 'Make the mother of all omelettes'])
+import { Student } from "./student.js"
 
+const student01 = new Student("Jack", "jackpot@hotmail.com", 19031048280, ["Programming Logic", "Object Oriented Programming", "Calculus"])
 
-console.log(person.Hobbies)
-function personConstructor(Name, Age, Hobbies)
-{
-    const person =
-    {
-        Name,
-        Age,
-        Hobbies
-    }
-    return person;
-}
+student01.FirstSubject(student01.subjects)
+
+student01.LastSubject(student01.subjects)
